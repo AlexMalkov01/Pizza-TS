@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header, main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(211, 211, 211);
+    padding: 15px; 
+
+    border-radius: 8px;
+}
+
+header > nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a  {
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius:6px;
+
+    background-color: #a518a5;
+}
+
+button {
+   margin-top: 10px;
+   padding: 8px;
+
+   color: rgb(255, 255, 255);
+   border: none;
+   border-radius:6px;
+   background-color: #a518a5;
+
+   cursor: pointer;
+}
+
+label {
+    width: 100%;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+}
+
+input[name=title] {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 3px 0;
+    padding-left: 10px;
+
+    border-radius: 4px;
+
+    outline: none;
+}
+
+input[name=discription] {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 3px 0;
+    padding-left: 10px;
+
+    border-radius: 4px;
+
+    outline: none;
+}
+
+input[name=price] {
+    padding: 3px 0;
+    width: 100%;
+    margin-top: 3px;
+    padding-left: 10px;
+
+    border-radius: 4px;
+
+    outline: none;
+}
+
+fieldset {
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset>label {
+    margin-left: 10px;
+}

@@ -1,0 +1,28 @@
+.root {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
+.pizza {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 12px 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.price {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
